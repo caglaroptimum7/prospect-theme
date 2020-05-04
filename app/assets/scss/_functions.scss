@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "GD Boing";
+  src: url("//db.onlinewebfonts.com/t/2d8cf0a1ae3cf90fc45730a9e56b1db2.eot");
+  src: url("//db.onlinewebfonts.com/t/2d8cf0a1ae3cf90fc45730a9e56b1db2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2d8cf0a1ae3cf90fc45730a9e56b1db2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2d8cf0a1ae3cf90fc45730a9e56b1db2.woff") format("woff"), url("//db.onlinewebfonts.com/t/2d8cf0a1ae3cf90fc45730a9e56b1db2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2d8cf0a1ae3cf90fc45730a9e56b1db2.svg#GD Boing") format("svg");
+}
+@font-face {
+  font-family: "GD Sherpa";
+  src: url("//db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.eot");
+  src: url("//db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.svg#GD Sherpa") format("svg");
+}
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap');
+$spaceamounts: (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+
+    .p#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+  }
+}

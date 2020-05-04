@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prospect Sense » Homepage</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all"/>
+    <link rel="stylesheet" href="assets/css/styles.css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css"/>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <link href="assets/css/toastr.min.css" rel="stylesheet"/>
+    <link href="assets/css/select2.min.css" rel="stylesheet"/>
+    <script src="assets/js/select2.full.min.js"></script>
+    <script src="assets/js/toastr.min.js"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="/">Prospect<span>Sense</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mr-sm-2" id="visitor">
+                <a href="/pages/login.html" class="btn btn-link"><i class="las la-sign-in-alt"></i> Login</a>&nbsp;
+                <a href="/pages/search.html" type="button" class="btn btn-primary"><i class="las la-bolt"></i> Try it now</a>
+            </ul>
+
+            <ul class="navbar-nav mr-sm-2" id="logged" hidden>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="las la-user"></i>  Account
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/pages/account.html"><i class="las la-user-alt"></i> My Account</a>
+                        <a class="dropdown-item" href="/pages/order-history.html"><i class="las la-history"></i> Order History</a>
+                        <a class="dropdown-item" href="/pages/invoices.html"><i class="las la-file-invoice-dollar"></i> Invoices</a>
+                        <a class="dropdown-item"  id="logoutButton"><i class="las la-sign-out-alt"></i> Logout</a>
+                    </div>
+                </div>
+                <a href="/pages/search.html" type="button" class="btn btn-primary"><i class="las la-bolt"></i> Try Lead Search</a>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+
+<!-- Introduction -->
+<section id="home" class="bg-half-170 border-bottom agency-wrapper">
+    <div class="home-center">
+        <div class="home-desc-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-7 order-1 order-md-2">
+                        <div class="title-heading mt-4 ml-lg-5"><h1 class="heading mb-3">This is <span
+                                class="text-primary">ProspectSense</span></h1>
+                            <p class="para-desc text-muted">Find email and contact lists highly related to your target strategies</p>
+                            <div class="watch-video mt-4 pt-2"><a href="/register" class="btn btn-primary">Try it
+                                now <i class="mdi mdi-chevron-right"></i></a> <a href="/tutorial"
+                                                                                 class="video-play-icon watch text-dark mb-2 ml-2">
+                                WATCH TUTORIAL</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 order-2 order-md-1 mt-4 pt-2 mt-sm-0 pt-sm-0"><img
+                            src="assets/images/working_with_computer.svg" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Product Feature CAT -->
+<section class="section bg-light">
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="section-title"><h4 class="title mb-4">Don't Compromise with the best web hosting
+                    solutions</h4>
+                    <p class="text-muted">Using Landrick to build your site means never worrying about designing
+                        another page or cross browser compatibility. Our ever-growing library of components and
+                        pre-designed layouts will make your life easier.</p>
+                    <ul class="list-unstyled feature-list text-muted">
+                        <li><i class="las la-check-circle"></i>Digital Marketing
+                            Solutions for Tomorrow
+                        </li>
+                        <li><i class="las la-check-circle"></i>Our Talented &amp;
+                            Experienced Marketing Agency
+                        </li>
+                        <li><i class="las la-check-circle"></i>Create your own skin
+                            to match your brand
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn btn-primary mt-3">Get Started <i
+                            class="mdi mdi-chevron-right"></i></a></div>
+            </div>
+            <div class="col-lg-6 col-md-6 order-1 order-md-2"><img src="/assets/images/hosting/deal-hend.png" alt=""
+                                                                   class="img-fluid"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="home-shape-bottom"><img src="/assets/images/shapes/shape-white.png" alt=""
+                                                class="img-fluid mx-auto d-block"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Pros & Cons About The Product -->
+<section class="section ">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title mb-4 pb-2"><h4 class="main-title mb-4">See everything about your <span
+                        class="text-primary">Landrick</span></h4>
+                    <p class="text-muted para-desc mx-auto mb-0">Start working with <span
+                            class="text-primary font-weight-bold">Landrick</span> that can provide everything you need
+                        to generate awareness, drive traffic, connect.</p></div>
+            </div>
+        </div>
+        <div id="counter" class="row">
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center"><img src="/assets/images/illustrator/Asset190.svg" height="70" alt="">
+                    <h2 class="mb-0 mt-3"><span data-count="97" class="counter-value">3</span>%</h2> <h5
+                            class="counter-head text-muted">Happy Client</h5></div>
+            </div>
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center"><img src="/assets/images/illustrator/Asset189.svg" height="70" alt="">
+                    <h2 class="mb-0 mt-3"><span data-count="15" class="counter-value">1</span>+</h2> <h5
+                            class="counter-head text-muted">Awards</h5></div>
+            </div>
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center"><img src="/assets/images/illustrator/Asset192.svg" height="70" alt="">
+                    <h2 class="mb-0 mt-3"><span data-count="2" class="counter-value">0</span>K</h2> <h5
+                            class="counter-head text-muted">Job Placement</h5></div>
+            </div>
+            <div class="col-md-3 col-6 mt-4 pt-2">
+                <div class="counter-box text-center"><img src="/assets/images/illustrator/Asset187.svg" height="70" alt="">
+                    <h2 class="mb-0 mt-3"><span data-count="98" class="counter-value">3</span>%</h2> <h5
+                            class="counter-head text-muted">Project Complete</h5></div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-md-6">
+                <div class="faq-content mr-lg-5">
+                    <div id="accordionExample" class="accordion">
+                        <div class="card border rounded shadow mb-2"><a data-toggle="collapse" href="#collapseOne"
+                                                                        aria-expanded="true" aria-controls="collapseOne"
+                                                                        class="faq position-relative">
+                            <div id="headingOne" class="card-header bg-primary p-3"><h4 class="title mb-0 faq-question">
+                                How our Landrick work ? </h4></div>
+                        </a>
+                            <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample"
+                                 class="collapse show">
+                                <div class="card-body"><p class="text-muted mb-0 faq-ans">There are many variations of
+                                    passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                    form, by injected humour, or randomised words which don't look even slightly
+                                    believable.</p></div>
+                            </div>
+                        </div>
+                        <div class="card border rounded shadow mb-2"><a data-toggle="collapse" href="#collapseTwo"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseTwo"
+                                                                        class="faq position-relative collapsed">
+                            <div id="headingTwo" class="card-header bg-primary p-3"><h4 class="title mb-0 faq-question">
+                                How to make unlimited data entry ? </h4></div>
+                        </a>
+                            <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample"
+                                 class="collapse">
+                                <div class="card-body"><p class="text-muted mb-0 faq-ans">There are many variations of
+                                    passages of Lorem Ipsum available, but the majority, by injected humour, or
+                                    randomised words which don't look even slightly believable.</p></div>
+                            </div>
+                        </div>
+                        <div class="card border rounded shadow mb-2"><a data-toggle="collapse" href="#collapsethree"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapsethree"
+                                                                        class="faq position-relative collapsed">
+                            <div id="headingthree" class="card-header bg-primary p-3"><h4 class="title mb-0 faq-question">
+                                What is the main process open account ? </h4></div>
+                        </a>
+                            <div id="collapsethree" aria-labelledby="headingthree" data-parent="#accordionExample"
+                                 class="collapse">
+                                <div class="card-body"><p class="text-muted mb-0 faq-ans">There are many variations of
+                                    passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                    form, by injected humour, or randomised words which believable.</p></div>
+                            </div>
+                        </div>
+                        <div class="card rounded shadow mb-0"><a data-toggle="collapse" href="#collapsefive"
+                                                                 aria-expanded="false" aria-controls="collapsefive"
+                                                                 class="faq position-relative collapsed">
+                            <div id="headingfive" class="card-header bg-primary p-3"><h4 class="title mb-0 faq-question">
+                                Is Landrick safer to use with my account ? </h4></div>
+                        </a>
+                            <div id="collapsefive" aria-labelledby="headingfive" data-parent="#accordionExample"
+                                 class="collapse">
+                                <div class="card-body"><p class="text-muted mb-0 faq-ans">There are many variations of
+                                    passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                    form.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0"><img src="/assets/images/illustrator/faq.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title"><h4 class="title mb-4">Get Started</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">Start working with <span
+                            class="text-primary font-weight-bold">Landrick</span> that can provide everything you need
+                        to generate awareness, drive traffic, connect.</p>
+                    <div class="watch-video mt-4 pt-2"><a href="javascript:void(0)" class="btn btn-primary mb-2">Get
+                        Started Now</a> <a href="http://vimeo.com/99025203"
+                                           class="video-play-icon watch text-dark mb-2 ml-2"><i
+                            class="mdi mdi-play play-icon-circle text-center d-inline-block mr-2 rounded-pill text-white position-relative play play-iconbar"></i>
+                        WATCH VIDEO</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<div class="container-fluid footer-wrapper">
+    <div class="">
+        <footer fragment="1631005bb12" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2"><a href="#" class="logo-footer">Prospect<span
+                            class="text-primary">Sense</span></a>
+                        <p class="mt-4">Start working with Landrick that can provide everything you need to generate
+                            awareness, drive traffic, connect.</p>
+                        <ul class="list-unstyled social-icon social mb-0 mt-4">
+                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                    title="Facebook"
+                                    class="mdi mdi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                    title="Instagram"
+                                    class="mdi mdi-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i title="Twitter"
+                                                                                                         class="mdi mdi-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0"><h4 class="text-light footer-head">
+                        Company</h4>
+                        <ul class="list-unstyled footer-list mt-4">
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> About us</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Services</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Team</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Pricing</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Features</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> FAQ</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Blog</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0"><h4 class="text-light footer-head">
+                        Usefull Links</h4>
+                        <ul class="list-unstyled footer-list mt-4">
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Privacy
+                                Protection</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Safe
+                                Payments</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Terms of
+                                Services</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i>
+                                Documentation</a></li>
+                            <li><a href="#" class="text-foot"><i class="las la-angle-right"></i> Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0"><h4 class="text-light footer-head">
+                        Newsletter</h4>
+                        <p class="mt-4">Sign up and receive the latest tips via email.</p>
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="foot-subscribe form-group position-relative"><label>Write your email
+                                        <span
+                                                class="text-danger">*</span></label> <i
+                                            class="mdi mdi-email ml-3 icons"></i>
+                                        <input type="email" name="email" id="emailsubscribe" placeholder="Your email : "
+                                               required="required" class="form-control pl-5 rounded"></div>
+                                </div>
+                                <div class="col-lg-12"><input type="submit" id="submitsubscribe" name="send"
+                                                              value="Subscribe" class="btn btn-primary w-100"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</div>
+<!-- / FOOTER -->
+
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="assets/js/app-min.js"></script>
+<script src="assets/js/ion.rangeSlider.min.js"></script>
+</body>
+</html>
